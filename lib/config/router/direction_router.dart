@@ -1,7 +1,16 @@
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app_final_xd/presentation/screens/counter/counter_screen.dart';
+import 'package:widgets/presentation/screens/buttons/buttons_screen.dart';
+import 'package:widgets/presentation/screens/cards/card_screen.dart';
 
-import '../../presentation/screens/screens.dart';
+import '../../presentation/screens/animated/animated_screen.dart';
+import '../../presentation/screens/appTutorial/app_tuttorial_screen.dart';
+import '../../presentation/screens/counter/counter_screen.dart';
+import '../../presentation/screens/home/home_screen.dart';
+import '../../presentation/screens/infinite_scroll/infinite_scroll_screen.dart';
+import '../../presentation/screens/iu_controlls/iu_controll_screen.dart';
+import '../../presentation/screens/progres/progres_screen.dart';
+import '../../presentation/screens/snackbar/snackbar_screen.dart';
+
 
 final appRouter = GoRouter(
   initialLocation: '/',

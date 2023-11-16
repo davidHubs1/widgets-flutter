@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app_final_xd/config/menu_itemes.dart';
-import 'package:widgets_app_final_xd/presentation/screens/providers/theme_provider.dart';
-import 'package:widgets_app_final_xd/presentation/widgets/side_menu.dart';
+
+import '../../../config/menu_itemes.dart';
+import '../../widgets/side_menu.dart';
+import '../providers/theme_provider.dart';
 
 class HomeScreen extends ConsumerWidget {
   static const name = 'home_screen';

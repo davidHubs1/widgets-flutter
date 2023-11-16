@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app_final_xd/config/menu_itemes.dart';
+import 'package:widgets/config/menu_itemes.dart';
 
 class SideMenu extends StatefulWidget {
   //especificar cual es el key

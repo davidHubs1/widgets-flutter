@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:widgets_app_final_xd/config/router/direction_router.dart';
-import 'package:widgets_app_final_xd/config/theme/app_theme.dart';
-import 'package:widgets_app_final_xd/presentation/screens/providers/theme_provider.dart';
+import 'package:widgets/config/router/direction_router.dart';
+import 'package:widgets/config/theme/app_theme.dart';
+import 'package:widgets/presentation/screens/providers/theme_provider.dart';
 
 void main() => runApp(
       const ProviderScope(
